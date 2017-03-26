@@ -1,0 +1,70 @@
+/* ::::: http://zttweb.com/chuziapp/css/font-awesome.min.css ::::: */
+
+body { margin: 0px; background: rgb(237, 237, 237) none repeat scroll 0% 0%; font-family: "PingFang SC","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Microsoft Yahei","微软雅黑",STHeiti,"华文细黑",sans-serif; height: 3524px; }
+.header { position: fixed; top: 0px; left: 0px; z-index: 200; width: 100%; height: 52px; background: rgb(29, 29, 29) none repeat scroll 0% 0%; }
+.nav { width: 98%; height: 52px; margin: 0px auto; position: relative; }
+.nav span { height: 52px; }
+.nav1 { float: left; width: 52px; background: transparent url('nav-toggle_fa.png') no-repeat scroll 0% 0% / cover ; position: relative; }
+.nav2 { width: 52px; position: absolute; top: 0px; bottom: 0px; left: 0px; right: 0px; margin: auto; background: transparent url('logo.png') no-repeat scroll 10px 12px / 58% auto; }
+.nav3 { float: right; width: 52px; background: transparent url('nav-user.png') no-repeat scroll -5px -52px / cover ; }
+.nav4 { float: right; width: 52px; background: transparent url('nav-user.png') no-repeat scroll -2px 0px / cover ; }
+.nav-slide { display: none; width: 100%; height: 706.6px; position: absolute; top: 52px; left: 0px; background: black none repeat scroll 0% 0%; color: rgb(221, 221, 221); font-size: 15px; }
+.nav-slide ul { margin: 0px; padding: 0px; list-style: outside none none; }
+.nav-slide ul li { padding: 20px 17px; border-bottom: 1px solid rgb(20, 20, 20); }
+.show1 { margin: 2.5px 5px; height: 151.4px; position: relative; top: 52px; left: 0px; }
+.show1 img { width: 100%; height: 100%; position: absolute; top: 0px; left: 0px; }
+.show2 { margin: 0px 5px; height: 76.2px; position: relative; top: 52px; left: 0px; }
+.show2 img { float: left; display: block; width: 50%; height: 100%; }
+.product1 { margin: 57px 8px 5px; height: 587.4px; background: white none repeat scroll 0% 0%; }
+.product1 span { display: block; padding-left: 16.7px; height: 49px; text-align: left; line-height: 49px; color: rgb(51, 51, 51); border-bottom: 1px solid rgb(237, 237, 237); }
+.pro1, .pro2, .pro3, .pro4 { width: 50%; height: 268.7px; box-sizing: border-box; border-bottom: 1px solid rgb(237, 237, 237); padding: 10px; border-right: 1px solid rgb(237, 237, 237); float: left; }
+.pro2, .pro4 { border-right: 0px solid rgb(237, 237, 237); }
+.pro1 img, .pro2 img, .pro3 img, .pro4 img { display: block; width: 100%; }
+.pro1 h6, .pro2 h6, .pro3 h6, .pro4 h6 { margin: 0px; font-size: 15px; font-weight: 100; color: rgb(51, 51, 51); width: 100%; height: 17px; text-align: center; line-height: 17px; }
+.pro3 h6, .pro4 h6 { text-overflow: ellipsis; white-space: nowrap; overflow: hidden; }
+.pro1 .jieshao, .pro2 .jieshao, .pro3 .jieshao, .pro4 .jieshao { margin: 5px 0px 0px; height: 32px; width: 100%; text-align: center; color: rgb(153, 153, 153); font-size: 0.7rem; }
+.pro1 .price, .pro2 .price, .pro3 .price, .pro4 .price { height: 16px; line-height: 16px; color: rgb(196, 11, 27); margin: 5px; text-align: center; font-size: 14px; }
+.product2 { margin: 7.5px 8px 5px; height: 1001px; background: white none repeat scroll 0% 0%; }
+.product2 span { display: block; padding-left: 16.7px; height: 49px; background: white none repeat scroll 0% 0%; text-align: left; line-height: 49px; color: rgb(51, 51, 51); border-bottom: 1px solid rgb(237, 237, 237); }
+.product2-img { width: 100%; height: 146px; border-bottom: 1px solid rgb(237, 237, 237); box-sizing: border-box; }
+.product2-img img { width: 100%; height: 100%; }
+.pro21, .pro22, .pro23, .pro24, .pro25, .pro26 { width: 50%; height: 268.7px; box-sizing: border-box; border-bottom: 1px solid rgb(237, 237, 237); padding: 10px; border-right: 1px solid rgb(237, 237, 237); float: left; }
+.pro22, .pro24, .pro26 { border-right: 0px solid rgb(237, 237, 237); }
+.pro21 img, .pro22 img, .pro23 img, .pro24 img, .pro25 img, .pro26 img { display: block; width: 100%; }
+.pro21 h6, .pro22 h6, .pro23 h6, .pro24 h6, .pro25 h6, .pro26 h6 { margin: 0px; font-size: 15px; font-weight: 100; color: rgb(51, 51, 51); width: 100%; height: 17px; text-align: center; line-height: 17px; }
+.pro21 h6, .pro22 h6, .pro23 h6, .pro24 h6, .pro25 h6, .pro26 h6 { text-overflow: ellipsis; white-space: nowrap; overflow: hidden; }
+.pro21 .jieshao, .pro22 .jieshao, .pro23 .jieshao, .pro24 .jieshao, .pro25 .jieshao, .pro26 .jieshao { margin: 5px 0px 0px; height: 32px; width: 100%; text-align: center; color: rgb(153, 153, 153); font-size: 0.7rem; }
+.pro21 .price, .pro22 .price, .pro23 .price, .pro24 .price, .pro25 .price, .pro26 .price { height: 16px; line-height: 16px; color: rgb(196, 11, 27); margin: 5px; text-align: center; font-size: 14px; }
+.product3 { margin: 7.5px 8px 5px; height: 1001px; background: white none repeat scroll 0% 0%; }
+.product3 span { display: block; padding-left: 16.7px; height: 49px; background: white none repeat scroll 0% 0%; text-align: left; line-height: 49px; color: rgb(51, 51, 51); border-bottom: 1px solid rgb(237, 237, 237); }
+.product3-img { width: 100%; height: 146px; border-bottom: 1px solid rgb(237, 237, 237); box-sizing: border-box; }
+.product3-img img { width: 100%; height: 100%; }
+.pro31, .pro32, .pro33, .pro34, .pro35, .pro36 { width: 50%; height: 268.7px; box-sizing: border-box; border-bottom: 1px solid rgb(237, 237, 237); padding: 10px; border-right: 1px solid rgb(237, 237, 237); float: left; }
+.pro32, .pro34, .pro36 { border-right: 0px solid rgb(237, 237, 237); }
+.pro31 img, .pro32 img, .pro33 img, .pro34 img, .pro35 img, .pro36 img { display: block; width: 100%; }
+.pro31 h6, .pro32 h6, .pro33 h6, .pro34 h6, .pro35 h6, .pro36 h6 { margin: 0px; font-size: 15px; font-weight: 100; color: rgb(51, 51, 51); width: 100%; height: 17px; text-align: center; line-height: 17px; }
+.pro31 h6, .pro32 h6, .pro33 h6, .pro34 h6, .pro35 h6, .pro36 h6 { text-overflow: ellipsis; white-space: nowrap; overflow: hidden; }
+.pro31 .jieshao, .pro32 .jieshao, .pro33 .jieshao, .pro34 .jieshao, .pro35 .jieshao, .pro36 .jieshao { margin: 5px 0px 0px; height: 32px; width: 100%; text-align: center; color: rgb(153, 153, 153); font-size: 0.7rem; }
+.pro31 .price, .pro32 .price, .pro33 .price, .pro34 .price, .pro35 .price, .pro36 .price { height: 16px; line-height: 16px; color: rgb(196, 11, 27); margin: 5px; text-align: center; font-size: 14px; }
+.box { height: 257px; margin: 7.5px 8px 5px; background: white none repeat scroll 0% 0%; }
+.box > div { padding-left: 16.7px; height: 49px; background: white none repeat scroll 0% 0%; position: relative; text-align: left; line-height: 49px; color: rgb(51, 51, 51); border-bottom: 1px solid rgb(237, 237, 237); }
+.box span { display: block; width: 70px; height: 20px; padding: 3px 5px; position: absolute; top: 11px; left: 263px; border: 1px solid rgb(237, 237, 237); font-size: 14px; text-align: center; line-height: 20px; border-radius: 5px; }
+.box .icon1, .box .icon2 { width: 50%; height: 208px; box-sizing: border-box; position: relative; border-bottom: 1px solid rgb(237, 237, 237); padding: 10px; border-right: 1px solid rgb(237, 237, 237); float: left; }
+.box .icon2 { border-right: 0px solid rgb(237, 237, 237); }
+.box .icon1 img, .box .icon2 img { display: block; width: 53%; height: 42%; margin: 11.5px 36.5px; }
+.box .icon1 h6, .box .icon2 h6 { margin: 0px; font-size: 15px; font-weight: 100; color: rgb(51, 51, 51); width: 100%; height: 17px; text-align: center; line-height: 17px; }
+.box .icon1 .jieshao, .box .icon2 .jieshao { margin: 5px 0px 0px; height: 17px; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; width: 100%; text-align: center; color: rgb(153, 153, 153); font-size: 0.7rem; line-height: 17px; }
+.icon1 .platform1, .icon2 .platform2 { width: 100%; height: 20px; margin-top: 15px; }
+.icon1 .platform1-icon, .icon2 .platform2-icon { width: 50px; height: 20px; margin: 0px auto; }
+.platform1-icon1, .platform2-icon1 { float: left; margin-right: 10px; width: 20px; height: 20px; background: transparent url('@e4@b8@8b@e8@bd@bd1.png') no-repeat scroll -2px 1px / 85% auto; }
+.platform1-icon2, .platform2-icon2 { float: left; width: 20px; height: 20px; background: transparent url('@e4@b8@8b@e8@bd@bd.png') no-repeat scroll 1px -1px / 85% auto; }
+.container { margin-top: 7.5px; height: 350px; background: white none repeat scroll 0% 0%; color: rgb(50, 50, 50); font-size: 14px; }
+.siteinfo { width: 100%; height: 240px; }
+.siteinfo ul { width: 100%; padding: 0px; margin: 0px; list-style: outside none none; }
+.siteinfo ul li { width: 100%; border-bottom: 1px solid rgb(237, 237, 237); position: relative; }
+.siteinfo ul li h3 { margin: 0px; padding: 12px 20px; font-weight: 100; font-size: 14px; }
+.target-ul { width: 100%; margin: 0px; padding: 0px; list-style: outside none none; background: rgb(245, 245, 245) none repeat scroll 0% 0%; }
+.target-ul li { padding: 12px 20px; border-bottom: 1px solid rgb(237, 237, 237); box-sizing: border-box; }
+.copyright { padding: 20px 0px 20px 16px; height: 81px; font-size: 6px; color: rgb(102, 102, 102); font-weight: 200; }
+.copyright h6 { font-weight: 200; margin: 0px; font-size: 10px; }
+.copyright3 { font-weight: 200; color: rgba(102, 102, 102, 0.54); }
