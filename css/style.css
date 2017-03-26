@@ -917,7 +917,7 @@ header nav ul .current {
     margin: 13px 0 0 10px;
     border: 1px solid #ccc;
     border-radius: 10px;
-    background: url(../images/jd.jpg) no-repeat center center;
+    background: url(../images/dongfeng.jpg) no-repeat center center;
 }
 
 .webs-in .web a {
@@ -991,7 +991,7 @@ transform:rotateZ(10deg);
     left: 45px;
     top: 41px;
     border: 5px solid #03b9d6;
-    background: url(../images/jdlogo.jpg) no-repeat;
+    background: url(../images/dongfenglogo.jpg) no-repeat;
     background-size: cover;
     border-radius: 50%;
 }
@@ -1046,24 +1046,7 @@ transform:rotateZ(10deg);
     top: 0;
 }
 
-// .webs-r .two span:nth-of-type(1) {
-//     width: 160px;
-//     height: 160px;
-//     background: url(../images/circle.png);
-//     left: 10px;
-//     top: 5px;
-//     animation: mysport 7s linear infinite;
-// }
 
-// .webs-r .two span:nth-of-type(2) {
-//     width: 140px;
-//     height: 140px;
-//     background: url(../images/circle01.png);
-//     left: 20px;
-//     top: 15px;
-//     background-size: cover;
-//     animation: mysport 4s linear infinite;
-// }
 
 .webs-r .two span:nth-of-type(3) {
     width: 80px;
@@ -1071,7 +1054,7 @@ transform:rotateZ(10deg);
     left: 45px;
     top: 41px;
     border: 5px solid #03b9d6;
-    background: #fff url(../images/tmall.png) no-repeat -33px 0;
+    background: #fff url(../images/yanxuanlogo.png) no-repeat center center;
     background-size: cover;
     border-radius: 50%;
 }
@@ -1110,7 +1093,7 @@ transform:rotateZ(10deg);
     left: 45px;
     top: 41px;
     border: 5px solid #03b9d6;
-    background: url(../images/mogujie.jpg) no-repeat;
+    background: url(../images/mogujie.jpg) no-repeat center center;
     background-size: cover;
     border-radius: 50%;
 }
@@ -1149,7 +1132,7 @@ transform:rotateZ(10deg);
     left: 45px;
     top: 41px;
     border: 5px solid #03b9d6;
-    background: url(../images/yixun1.jpg) no-repeat;
+    background: url(../images/tmalllogo.png)  no-repeat center center;
     background-size: cover;
     border-radius: 50%;
 }
@@ -1188,7 +1171,7 @@ transform:rotateZ(10deg);
     left: 45px;
     top: 41px;
     border: 5px solid #03b9d6;
-    background: url(../images/guomei.jpg) no-repeat -15px 0;
+    background: url(../images/guomei.jpg) no-repeat center center;
     background-size: cover;
     border-radius: 50%;
 }
@@ -1227,8 +1210,8 @@ transform:rotateZ(10deg);
     left: 45px;
     top: 41px;
     border: 5px solid #03b9d6;
-    background: url(../images/baidu.png) no-repeat;
-    background-size: cover;
+    background: url(../images/chuizilogo.jpg)  no-repeat -43px -23px;
+    background-size: 210%;
     border-radius: 50%;
 }
 

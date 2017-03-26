@@ -691,17 +691,17 @@
 		if(index == 0){
 			$('.webs-in .web').fadeIn(1000,function(){
 				$(this).fadeOut(1200,function(){
-					$(this).css('background','url(images/jd.jpg) no-repeat center center')
+					$(this).css('background','url(images/dongfeng.jpg) no-repeat center center')
 					$(this).fadeIn(600)
-					ohref.href = 'jd.html'
+					ohref.href = './projects/dongfeng/dongfeng.html'
 				})
 			})
 		}else if(index == 1){
 			$('.webs-in .web').fadeIn(1000,function(){
 				$(this).fadeOut(1200,function(){
-					$(this).css('background','url(images/tmall.jpg) no-repeat center center')
+					$(this).css('background','url(images/yanxuan.jpg) no-repeat center center')
 					$(this).fadeIn(600)
-					ohref.href = 'tmall.html'
+					ohref.href = './projects/yanxuan/yanxuan.html'
 				})
 			})
 		}else if(index == 2){
@@ -715,9 +715,9 @@
 		}else if(index == 3){
 			$('.webs-in .web').fadeIn(1000,function(){
 				$(this).fadeOut(1200,function(){
-					$(this).css('background','url(images/yixun.jpg) no-repeat center center')
+						$(this).css('background','url(images/tmall.jpg) no-repeat center center')
 					$(this).fadeIn(600)
-					ohref.href = 'yixun.html'
+					ohref.href = 'tmall.html'
 				})
 			})
 		}else if(index == 4){
@@ -726,15 +726,15 @@
 				$(this).fadeOut(1200,function(){
 					$(this).css('background','url(images/gome.jpg) no-repeat center center')
 					$(this).fadeIn(600)
-					ohref.href = 'gome.html'
+					ohref.href = './projects/yanxuan/yanxuan.html'
 				})
 			})
 		}else{
 			$('.webs-in .web').fadeIn(1000,function(){
 				$(this).fadeOut(1200,function(){
-					$(this).css('background','url(images/baidu.jpg) no-repeat center center')
+					$(this).css('background','url(images/chuizi.jpg) no-repeat center center')
 					$(this).fadeIn(600)
-					ohref.href = 'baidu.html'
+					ohref.href = './projects/chuizi/chuizi.html'
 				})
 			})
 		}
